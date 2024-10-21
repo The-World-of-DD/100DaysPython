@@ -1,5 +1,11 @@
-bill = (input("How many is the total bill? $ "))
-tip = (input("How many do you want to tip? "))
-pj = (input("How much clients? "))
+print ("Welcome to the tip calculator")
 
-print (bill * (tip * 0,12) / pj);
+bill = float(input("How much is the bill? $ "))
+prop = (input("How much do you want to tip (%) $ ")) / 100
+people = int(input("How much people? "))
+
+calc_tip = bill * prop
+total = calc_tip / people
+
+print ("Headcounter: ")
+print (total)
