@@ -1,0 +1,57 @@
+print('''
+
+ |   [  | v':    :              |        |_,;c    
+ | ]    |/; |,   |              |   [  ( __,/     
+ |    ,-'/  ;\ ,<  _',\.-._,;   |      ] |    n   
+ |   -' /   _;';    '=_'-' ,)  ,\        |   ,;   
+ |  ]  / \,'__/--,_,-- 'mm'J -"_  ]       '-,+_   
+ |    /    / "''-.,;"---''--'"" \      ]   __  "-'
+;' [      / :    : _c           /         /  ",_,'
+|      [ | v|  , '/             c c    \ |        
+\    ]   |  \ /| :        __,-,v;|]   . \|        
+  [      /"--'/  |      (7_   c@  )    )/|        
+\     ]    ,-"'<':       '--,    (    /^ |        
+| ]       / :   '|           \ |  )      |        
+| |   /  |  |    ;,-;,        \ ,)(     ]|        
+|  \^ |  |  :  |\ ,'           \ / \ [   |        
+|  ?  /  \_ |  /|:              | , \    |        
+|  | ('.   "--' |:,    ;        :\  ,\  [|        
+|  ;\~)   _     \_) ',_|   ,    | ),  \_ :        
+|   |/ [ /""-,_   '-'(    /.'   | \   |  '-_      
+| [      |  |  "---,__"'=';=,_  |  \ /|\    '"-,__
+|     ]  |  :    |    ""'^.\    |   | |    \      
+|  [    ]|  |    :              | ]  \ \   / 
+''')
+print("Welcome to Jungle")
+print('''You're at crossroad. Where do you want to go?
+       Type 'left' or 'right' ''')
+
+side = input();
+if side == "right":
+       print("Fall into a hole... Game Over :( ")
+       exit();
+elif side == "left":
+       print ("You are in front of a lake")
+
+print('''What you gonna do? Swing or border
+      Type 'swing' or 'border' ''')
+side = input();
+if side == "swing":
+       print("You were killed by (not) baby shark")
+       exit();
+else:
+       print ("You are in front of a three doors of different colours")
+
+print('''Which you gonna open? The blue, the red or yellow
+      Type "blue', 'red' or 'yellow' ''')
+side = input();
+if side == "blue":
+       print("You were killed by the thing")
+elif side == "red":
+       print("You were killed by penny, the wise")
+elif side == "yellow":
+       print("You were not killed...Congrats, I suppose")
+else:
+       print("worldbuilding patiente is over, you left to exist")
+       
+
